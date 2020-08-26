@@ -26,7 +26,7 @@
         console.log('CPU usage (%):', data);
         document.getElementById('cpu').innerHTML = `${data.toFixed(2)} %`;
       })
-      
+
       ipcRenderer.on('mem', (event, data) => {
         console.log('Free Mem (%):', data);
         document.getElementById('mem').innerHTML = data.toFixed(2);
@@ -34,7 +34,7 @@
 
       ipcRenderer.on('total-mem', (event, data) => {
         console.log('Total Mem (GB)', data);
-        document.getElementById('total-mem').innerHTML = data.toFixed(2);
+        document.getElementById('total-mem').innerHTML = data;
       })
     </script>
   </body>
