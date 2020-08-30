@@ -1,1 +1,2 @@
-# OS-Moninor A simple, extensible Electron Desktop Application.
+# OS-Moninor 
+A simple, extensible Electron Desktop Application.
